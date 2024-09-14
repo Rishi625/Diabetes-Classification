@@ -12,20 +12,15 @@ The repository contains three CSV files derived from the original BRFSS 2015 dat
      - 0: No diabetes or only during pregnancy
      - 1: Prediabetes
      - 2: Diabetes
-   - Note: This dataset has class imbalance
-
 2. **diabetes_binary_5050split_health_indicators_BRFSS2015.csv**
    - 70,692 survey responses
    - 21 feature variables
    - Target variable: Diabetes_binary (2 classes)
      - 0: No diabetes
      - 1: Prediabetes or diabetes
-   - Balanced dataset with a 50-50 split between classes
-
 3. **diabetes_binary_health_indicators_BRFSS2015.csv**
    - 253,680 survey responses
    - 21 feature variables
    - Target variable: Diabetes_binary (2 classes)
      - 0: No diabetes
      - 1: Prediabetes or diabetes
-   - Note: This dataset is not balanced
